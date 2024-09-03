@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/stylejug.css">
+    <title>Registro de Jugadores</title>
+</head>
+<body>
+
+    <h1>Registro de Jugadores</h1>
+    <hr />
+
+    <label for="ingreso">Apellido y Nombre: </label>
+    <input type="text" name="ingreso" id="ingreso" />
+
+    <label for="club">Club: </label>
+    <input type="text" name="club" id="club" />
+
+    <label for="edad">Edad: </label>
+    <input type="number" name="edad" id="edad" />
+
+    <label for="ciudad">Ciudad: </label>
+    <input type="text" name="ciudad" id="ciudad" />
+
+    <button id="btnSave" class="btn">Guardar</button>
+    <button id="btnSearch" class="btn">Buscar</button>
+
+    <h3>Resultados de la búsqueda:</h3>
+    <div id="resultadoBusqueda"></div>
+
+    <h2>Lista de Jugadores Registrados:</h2>
+    <ul id="lista"></ul>
+    <a href="../pages/principal.html">
+        <button id="btnInicio" class="btn">Menu</button>
+    <script src="../js/jugadores.js"></script>
+</body>
+</html>
